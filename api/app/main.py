@@ -16,7 +16,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 import energy_explorer
 
-from .routers import datasets, models
+from .routers import analysis, datasets, models
 
 app = FastAPI(
     title="Energy Explorer API",
@@ -34,6 +34,7 @@ app.add_middleware(
 
 app.include_router(datasets.router)
 app.include_router(models.router)
+app.include_router(analysis.router)
 
 
 @app.get("/api/health", tags=["meta"])

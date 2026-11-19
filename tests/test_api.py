@@ -64,3 +64,18 @@ def test_timescale_and_simulation(client):
     daily = client.post(f"/api/datasets/{ds['id']}/timescale",
                         json={"to": "daily", "averages": ["Toa", "Woa"]}).json()
     assert daily["n_records"] == 365 and daily["id"] != ds["id"]
+
+
+def test_histogram_and_profile_endpoints(client):
+    ds = client.post("/api/datasets/samples/sample_daily").json()
+    client.post(f"/api/datasets/{ds['id']}/groups", json={"mode": "date", "end": "12/31/2019"})
+    h = client.post(f"/api/datasets/{ds['id']}/histogram",
+                    json={"variable": "CW", "n_bins": 12, "by_group": True}).json()
+    assert [s["group"] for s in h["series"]] == ["Pre", "Post"] and len(h["edges"]) == 13
+    bad = client.post(f"/api/datasets/{ds['id']}/histogram", json={"variable": "nope"})
+    assert bad.status_code == 422
+
+    hr = client.post("/api/datasets/samples/sample_hourly").json()
+    p = client.post(f"/api/datasets/{hr['id']}/hourly-profile",
+                    json={"variable": "Toa", "theta_deg": 45}).json()
+    assert len(p["polylines"]) == len(p["dates"]) and len(p["hours"]) == 24

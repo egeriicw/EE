@@ -2,6 +2,8 @@ import { useState } from "react";
 import type { DatasetSummary, FitResponse } from "./api";
 import DatasetPanel from "./components/DatasetPanel";
 import GroupPanel from "./components/GroupPanel";
+import HistogramPanel from "./components/HistogramPanel";
+import HourlyProfilePanel from "./components/HourlyProfilePanel";
 import ModelPanel from "./components/ModelPanel";
 import SavingsPanel from "./components/SavingsPanel";
 
@@ -27,6 +29,8 @@ export default function App() {
         {dataset && <GroupPanel dataset={dataset} onChange={setDataset} />}
         {dataset && <ModelPanel key={dataset.id} dataset={dataset} fit={fit} onFit={setFit} />}
         {dataset?.grouped && fit && <SavingsPanel fit={fit} dataset={dataset} />}
+        {dataset && <HistogramPanel key={dataset.id} dataset={dataset} />}
+        {dataset && <HourlyProfilePanel key={dataset.id} dataset={dataset} />}
       </main>
     </div>
   );

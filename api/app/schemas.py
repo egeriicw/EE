@@ -76,3 +76,19 @@ class SimulationRequest(BaseModel):
     toa: str = "Toa"
     woa: str | None = None
     hsol: str | None = None
+
+
+class HistogramRequest(BaseModel):
+    variable: str
+    n_bins: int = Field(10, ge=1, le=500)
+    xmin: float | None = None
+    xmax: float | None = None
+    group: int | str | None = None
+    by_group: bool = False
+
+
+class HourlyProfileRequest(BaseModel):
+    variable: str
+    group: int | str | None = None
+    theta_deg: float = Field(45.0, description="view rotation for the 3D polylines")
+    res: float = Field(400.0, gt=0)

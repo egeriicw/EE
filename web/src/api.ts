@@ -74,3 +74,46 @@ export const api = {
   savings: (modelId: string, body: { measurement_error_pct: number; post_group?: string | number; autocorrelation_corrected?: boolean }) =>
     request<SavingsResponse>(`/api/models/${modelId}/savings`, json(body)),
 };
+
+export interface HistogramSeries {
+  group: string;
+  n: number;
+  counts: number[];
+  probability: number[];
+  percent: number[];
+}
+
+export interface Histogram {
+  variable: string;
+  n_bins: number;
+  xmin: number;
+  xmax: number;
+  edges: number[];
+  midpoints: number[];
+  series: HistogramSeries[];
+}
+
+export interface ProfilePolyline {
+  date: string;
+  points: ([number, number] | null)[];
+}
+
+export interface HourlyProfile {
+  variable: string;
+  group: string;
+  dates: string[];
+  hours: number[];
+  values: (number | null)[][];
+  scale: number;
+  n: number;
+  polylines: ProfilePolyline[];
+}
+
+export const analysisApi = {
+  histogram: (
+    id: string,
+    body: { variable: string; n_bins: number; xmin?: number | null; xmax?: number | null; group?: string | null; by_group: boolean },
+  ) => request<Histogram>(`/api/datasets/${id}/histogram`, json(body)),
+  hourlyProfile: (id: string, body: { variable: string; group?: string | null; theta_deg: number }) =>
+    request<HourlyProfile>(`/api/datasets/${id}/hourly-profile`, json(body)),
+};

@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "energy-explorer"
+version = "0.1.0"
+description = "Python port of ENERGY EXPLORER (Kissock, University of Dayton): change-point regression, M&V savings, and simplified HVAC simulation for measured energy data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+]
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "python-multipart>=0.0.9",
+    "pydantic>=2.6",
+]
+notebook = [
+    "jupyterlab>=4.1",
+    "ipykernel>=6.29",
+    "matplotlib>=3.8",
+    "nbconvert>=7.16",
+]
+dev = [
+    "pytest>=8.0",
+    "httpx>=0.27",
+    "ruff>=0.4",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["energy_explorer"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint.per-file-ignores]
+"api/**" = ["B008"]  # FastAPI's Depends()/File() defaults are idiomatic
+"tests/**" = ["RUF059"]

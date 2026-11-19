@@ -1,0 +1,2499 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0\fnil Arial;}{\f1\fnil System;}}
+{\colortbl\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue127;\red0\green127\blue127;\red0\green127\blue0;\red127\green0\blue127;\red127\green0\blue0;\red127\green127\blue0;\red127\green127\blue127;\red192\green192\blue192;}
+{\info{\creatim\yr2005\mo7\dy7\hr17\min32\sec55}{\revtim\yr2005\mo7\dy7\hr17\min32\sec56}{\version1}{\vern262245}}\paperw12240\paperh15840\margl14\margr60517\margt14\margb64117\deftab720
+
+#{\footnote Hlp_Description}
+${\footnote Description}
+K{\footnote Description}
++{\footnote Browse:0005}
+\pard
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Description}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Program: Energy Explorer (Version 2005-05-15).}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Developer: Kelly Kissock}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Operating Systems: Windows NT, Windows 98, Windows 2000, Windows XT, Windows XP}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Sample Data Files: DAILY2.DAT; DAILY2.VAR; HOURLY.DAT; HOURLY.VAR; MONTHLYENGY.DAT; }
+\ql{\f0\fs24\cf0\up0\dn0 MONTHLYENGY.VAR; DAILYTEMPS.DAT; DAILYTEMPS.VAR}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer is a tool for the analysis of building and facility energy use data.  It integrates the previously }
+\ql{\f0\fs24\cf0\up0\dn0 laborious tasks of data processing, graphing and statistical modeling in a user-friendly, graphical interface.  }
+\ql{\f0\fs24\cf0\up0\dn0 Energy Explorer' easy to use features will help you quickly and accurately determine baseline energy use, }
+\ql{\f0\fs24\cf0\up0\dn0 understand factors that influence energy use, calculate retrofit savings and identify operational and }
+\ql{\f0\fs24\cf0\up0\dn0 maintenance problems.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  Energy Explorer' powerful data handling features allow you to investigate large data sets with a few simple }
+\ql{\f0\fs24\cf0\up0\dn0 mouse clicks.  Data can be uploaded directly from Enertel databases or read from ASCII text files.  Time-}
+\ql{\f0\fs24\cf0\up0\dn0 consuming tasks such as data grouping and cleaning, or changing timescales and units can be quickly and }
+\ql{\f0\fs24\cf0\up0\dn0 intuitively accomplished within Energy Explorer and without the need for spreadsheets or specialized }
+\ql{\f0\fs24\cf0\up0\dn0 programs.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Data exploration is facilitated by a powerful graphical environment with trend (time series), xy and histogram }
+\ql{\f0\fs24\cf0\up0\dn0 plots. Individual data points can be identified with click of the mouse.  The user can easily move between }
+\ql{\f0\fs24\cf0\up0\dn0 long and short-term views by zooming in on areas of interest. Data can even be animated to show the time- }
+\ql{\f0\fs24\cf0\up0\dn0 sequencing of complex relationships.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer includes with a full package of statistical models specifically designed for building and }
+\ql{\f0\fs24\cf0\up0\dn0 facility energy use.  Models include mean, median, simple and multiple-linear regression.  In addition, }
+\ql{\f0\fs24\cf0\up0\dn0 specially-developed 2, 3, 4 and 5-parameter change-point models allow the user to precisely and easily }
+\ql{\f0\fs24\cf0\up0\dn0 quantify relationships between building energy use, weather and other energy drivers.  Change-point }
+\ql{\f0\fs24\cf0\up0\dn0 models accurately model the non-linear energy use patterns characteristic of whole-building electric, steam, }
+\ql{\f0\fs24\cf0\up0\dn0 heat-pump, and cooling energy use data. Modeling results are displayed both as text and graphically to }
+\ql{\f0\fs24\cf0\up0\dn0 facilitate a quick and complete understanding of the model and its fit to the data.  In addition, retrofit savings }
+\ql{\f0\fs24\cf0\up0\dn0 and Lean Energy breakdowns can be determined from the regression models in a few simple keystrokes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Getting_Startedx}
+${\footnote Getting Started: An Overview of Features}
+K{\footnote Getting Started: An Overview of Features}
++{\footnote Browse:0015}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Getting Started: An Overview of Features}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Starting Energy Explorer}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To start Energy Explorer double click on the Energy Explorer icon. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Loading Data from ASCII Files}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer reads ASCII data files that contain only numeric values and have the same number of data }
+\ql{\f0\fs24\cf0\up0\dn0 elements in each row.  A no-data flag, such as -9.99, should be used in place of unavailable data. The }
+\ql{\f0\fs24\cf0\up0\dn0 month, day, hour, year and minute (as needed) of each line of data should be listed in separate columns.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer requires that each column of data in the data file be assigned a name.  The easiest way to }
+\ql{\f0\fs24\cf0\up0\dn0 assign names is to create a short ASCII text file containing the variable names using the Energy Explorer }
+\ql{\f0\fs24\cf0\up0\dn0 text editor.  To do so, select Edit, Editor from the menu and type each variable name onto a separate line.  }
+\ql{\f0\fs24\cf0\up0\dn0 Save this file in the same directory as the data file and using the same file name as data file, but with the }
+\ql{\f0\fs24\cf0\up0\dn0 filename extension ".VAR". To make full use of Energy Explorer's time series analysis capabilities, use the }
+\ql{\f0\fs24\cf0\up0\dn0 variable names "Mo", "Dy", "Yr", "Hr" and "Mn" to describe data channels containing the month, day, year, }
+\ql{\f0\fs24\cf0\up0\dn0 hour and minute (as needed) of each data record.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To open an ASCII data file, select File, Open Data from Text File from the menu and enter the appropriate }
+\ql{\f0\fs24\cf0\up0\dn0 path and file name in the File Open dialog box that appears.  Energy Explorer requires that each column of }
+\ql{\f0\fs24\cf0\up0\dn0 data in the data file be assigned a name.  If Energy Explorer can find the *.VAR variable name file, then it }
+\ql{\f0\fs24\cf0\up0\dn0 will automatically open it and load the correct variable names.  If not Energy Explorer automatically displays }
+\ql{\f0\fs24\cf0\up0\dn0 the Name Variables dialog box.  Enter descriptive variable names for each column of data in the data file.  }
+\ql{\f0\fs24\cf0\up0\dn0 Save the names as a file in the same directory as the data file and using the same file name as data file, but }
+\ql{\f0\fs24\cf0\up0\dn0 with the filename extension ".VAR", then click OK.  The variable names will be assigned to the Y Variable }
+\ql{\f0\fs24\cf0\up0\dn0 and X Variable list boxes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To merge two data files, such as a file of monthly energy use and a file of average daily temperatures, open }
+\ql{\f0\fs24\cf0\up0\dn0 a second data file using the same procedure as the first file, then select the Data, Merge With Previous }
+\ql{\f0\fs24\cf0\up0\dn0 Data File menu items. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Creating Time-Series Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 A time-series graph can be viewed by selecting a variable from the Y Variable box, and then clicking the }
+\ql{\f0\fs24\cf0\up0\dn0 Time Series button.  A second time series trace can be displayed on the original time series graph by }
+\ql{\f0\fs24\cf0\up0\dn0 selecting a second  variable from the Y Variable box and clicking the 2 button adjacent to the Time Series }
+\ql{\f0\fs24\cf0\up0\dn0 button.  To give each time-series trace the same Y scale, select the menu item Graphics, Single Scale }
+\ql{\f0\fs24\cf0\up0\dn0 before clicking the 2 button.  To zoom in on a portion of the data, select the menu items Graphics, Zoom In, }
+\ql{\f0\fs24\cf0\up0\dn0 then drag a box over the data of interest using the mouse.  To zoom out, select the menu items Graphics, }
+\ql{\f0\fs24\cf0\up0\dn0 Zoom Out.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Creating XY Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 An XY graph, which shows the relationship between two variables, can be viewed by selecting a Y variable }
+\ql{\f0\fs24\cf0\up0\dn0 from the Y Variable box, an X variable from the X Variable box, and then clicking the XY button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Identifying Data Points}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To identify a point on a Time series or XY graph, make sure the menu item Graphics, Point is checked, then }
+\ql{\f0\fs24\cf0\up0\dn0 simply click on the point using the mouse.  The date and value will be displayed in the Value Bar.  To move }
+\ql{\f0\fs24\cf0\up0\dn0 to adjacent points, push the right or left arrow keys on the keyboard.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Graph Options}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Grid lines can be displayed and removed by selecting the Graphics, Grid menu items.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Creating Animated XY Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 An animated XY graph can be viewed by selecting a Y variable from the Y Variable box, an X variable from }
+\ql{\f0\fs24\cf0\up0\dn0 the X Variable box, and then clicking the XY Animate button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Creating Histogram Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 A histogram of the data can be viewed by selecting a variable from the Y Variable box and then clicking the }
+\ql{\f0\fs24\cf0\up0\dn0 Histogram button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Grouping and Modifying Data}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Subsets of data can be created by selecting the menu items Data, Select Dates.  To display the dates of the }
+\ql{\f0\fs24\cf0\up0\dn0 current data set select the menu items Data, View Dates.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To modify the values in the data set, select the Data, Modify Variable menu items.  This option can be used }
+\ql{\f0\fs24\cf0\up0\dn0 to convert units or rescale data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To divide the data into two groups, such as from the pre and post-retrofit periods, select the menu items }
+\ql{\f0\fs24\cf0\up0\dn0 Data, Group by Date.  The dialog box, enter a Start Date, End Date or both for group 1, then click OK.  To }
+\ql{\f0\fs24\cf0\up0\dn0 display and model the data as separate groups, click G1G2 at the lower right of the Energy Explorer work }
+\ql{\f0\fs24\cf0\up0\dn0 window.  To display and model the data as a single group, click the Single Group at the lower right of the }
+\ql{\f0\fs24\cf0\up0\dn0 Energy Explorer work window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Creating Regression Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Median, mean, simple linear regression (2-parameter), 3, 4 and 5 parameter change-point and bin-fit }
+\ql{\f0\fs24\cf0\up0\dn0 models can be activated by selecting Y and X variables from the Y Variable and X Variable box, and then }
+\ql{\f0\fs24\cf0\up0\dn0 clicking the appropriate model button.  The Median and Mean models only require that a Y variable is }
+\ql{\f0\fs24\cf0\up0\dn0 selected, while the other models require that both Y and X variables are selected.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 For multivariable linear regression, click the M button next to the 2P model.  For change point + }
+\ql{\f0\fs24\cf0\up0\dn0 multivariable regression models, click the M next to the appropriate change-point model.  The change-point }
+\ql{\f0\fs24\cf0\up0\dn0 model will be calculated using X1, the first independent variable selected. In the dialog box that appears, }
+\ql{\f0\fs24\cf0\up0\dn0 select Y from the Regressor box and then your choice of the dependent (Y) variable from the Variable }
+\ql{\f0\fs24\cf0\up0\dn0 Name box.  Click the Set button to lock in the variable.  Then select up to seven independent (X) variables }
+\ql{\f0\fs24\cf0\up0\dn0 by choosing X1, X2,..., X7 from the Regressor box and selecting a corresponding variable from the Variable }
+\ql{\f0\fs24\cf0\up0\dn0 Name box.  Click the Set button after each choice to lock in the variable. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Prediction intervals  can be displayed and removed by selecting the Graphics, Prediction Intervals options }
+\ql{\f0\fs24\cf0\up0\dn0 from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Calculating Savings}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To calculate savings, divide the data into pre and post retrofit periods by selecting the menu item Data, }
+\ql{\f0\fs24\cf0\up0\dn0 Group by Date.  Click G1G2 in the lower right of the Energy Explorer work window, then model the pre-}
+\ql{\f0\fs24\cf0\up0\dn0 retrofit data with a median, mean, regression or change-point model.  Select the menu item, Analysis, }
+\ql{\f0\fs24\cf0\up0\dn0 Calculate Savings. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Lean Energy Analysis}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To disaggregate energy use into Lean Energy categories of facility, weather-dependent and production-}
+\ql{\f0\fs24\cf0\up0\dn0 dependent use, model energy use using a 3PH-MVR or 3PC-MVR model.  In the dialog box, set Y to the }
+\ql{\f0\fs24\cf0\up0\dn0 energy use, X1 to temperature and X2 to a production-rleated variable.  Select the menu item, Analysis, }
+\ql{\f0\fs24\cf0\up0\dn0 Calculate Lean Energy Breakdown. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Printing}{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To print the current value window and graph window using the default printer, select File, Print from the }
+\ql{\f0\fs24\cf0\up0\dn0 menu.  To place a copy of the value window or graph window in the clipboard so it can be pasted into other }
+\ql{\f0\fs24\cf0\up0\dn0 Microsoft Windows applications, select Edit, Copy Value Window or Edit, Copy Graph from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Menu_Bar}
+${\footnote Menu Bar}
+K{\footnote Menu Bar}
++{\footnote Browse:0030}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Menu Bar}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The Menu Bar is located at the top of the Energy Explorer work window.  File opening, closing and saving }
+\ql{\f0\fs24\cf0\up0\dn0 operations, printing, data processing and graphics options are accessed through the menu bar. The menu }
+\ql{\f0\fs24\cf0\up0\dn0 bar conforms to standard Microsoft Window protocol.  Select menu items by clicking on them with the }
+\ql{\f0\fs24\cf0\up0\dn0 mouse or typing alt + keyletter, where keyletter is the underlined letter in the menu item.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Graph_Window}
+${\footnote Graph Window}
+K{\footnote Graph Window}
++{\footnote Browse:0035}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Graph Window}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 All graphs are displayed in the Graph Window that lies directly below the Value Window.  This window may }
+\ql{\f0\fs24\cf0\up0\dn0 be cleared by clicking on the small box in the upper right hand corner of the window.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Variable_List}
+${\footnote Variable List Boxes}
+K{\footnote Variable List Boxes}
++{\footnote Browse:0040}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Variable List Boxes}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Select variables for viewing or modeling in the Y-Variable and X-Variable list boxes near the right side of the }
+\ql{\f0\fs24\cf0\up0\dn0 work window.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Graph_Buttons}
+${\footnote Graph Buttons}
+K{\footnote Graph Buttons}
++{\footnote Browse:0045}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Graph Buttons}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Time Series, TimeSeries 2, XY, XY Animate and Histogram graphs are displayed by clicking on these }
+\ql{\f0\fs24\cf0\up0\dn0 buttons on the right hand side of the Energy Explorer work window.  Graph display the variables selected in  }
+\ql{\f0\fs24\cf0\up0\dn0 the Y Variable and X Variable list boxes.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Model_Buttons}
+${\footnote Model Buttons}
+K{\footnote Model Buttons}
++{\footnote Browse:0050}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Model Buttons}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Models are activated by clicking on the model buttons located at the bottom of the Energy Explorer work }
+\ql{\f0\fs24\cf0\up0\dn0 window.  The dependent (Y) variable used for the model is the channel selected in the Y Variable list box }
+\ql{\f0\fs24\cf0\up0\dn0 and the independent (X) variable is the channel selected in the X Variable list box.  Model parameters are }
+\ql{\f0\fs24\cf0\up0\dn0 displayed in the Value Window.  For models with zero or one independent variables, values predicted by the }
+\ql{\f0\fs24\cf0\up0\dn0 models are shown as a solid line in the Graph Window.  For multiple independent-variable models, }
+\ql{\f0\fs24\cf0\up0\dn0 predicted values are displayed as heavy boxes.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Grouping_Buttons}
+${\footnote Grouping Buttons}
+K{\footnote Grouping Buttons}
++{\footnote Browse:0055}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Grouping Buttons}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The lower right hand corner of the Energy Explorer work window contains two buttons labeled Single Group }
+\ql{\f0\fs24\cf0\up0\dn0 and G1|G2.  To view and model data without grouping, select the Single Group button.  When the Single }
+\ql{\f0\fs24\cf0\up0\dn0 Group button is selected graphs and models use the complete set of data.  When the G1|G2 button is }
+\ql{\f0\fs24\cf0\up0\dn0 selected, Energy Explorer produces separate graphs and models for each group of data.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Printing}
+${\footnote Printing}
+K{\footnote Printing}
++{\footnote Browse:0075}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Printing}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0     To print the Value Window and the Graph Window as they currently appear on the screen  using the }
+\ql{\f0\fs24\cf0\up0\dn0 default printer:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select File, Print from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The output will be sent to the printer configured in Windows.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Copying_Information}
+${\footnote Copying Information to the Clipboard}
+K{\footnote Copying Information to the Clipboard}
++{\footnote Browse:0085}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Copying Information to the Clipboard}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To place only the Value Window in the clipboard, select Edit, Copy Value Window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To place only the Graph Window in the clipboard, select Edit, Copy Graph.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To place a copy of the entire Energy Explorer work screen in the clipboard,  press Alt and PrintScreen keys }
+\ql{\f0\fs24\cf0\up0\dn0 simultaneously }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Text_Editor}
+${\footnote Text Editor}
+K{\footnote Text Editor}
++{\footnote Browse:0090}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Text Editor}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer has a text editor to view, write and edit ASCII text files.  Use caution, however, in editing }
+\ql{\f0\fs24\cf0\up0\dn0 large files since the text editor may take a long time to open large files. To edit very large files, we suggest }
+\ql{\f0\fs24\cf0\up0\dn0 using a work processor.  To open the Enertel  Analysis text editor, select the menu items File, Editor.  The }
+\ql{\f0\fs24\cf0\up0\dn0 text editor will appear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Work_Window}
+${\footnote Work Window}
+K{\footnote Work Window}
++{\footnote Browse:0010}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Work Window}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Menu Bar}{\v Hlp_Menu_Bar}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Value Window}{\v Hlp_Value_Window}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Graph Window}{\v Hlp_Graph_Window}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Variable List Boxes}{\v Hlp_Variable_List}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Graph Buttons}{\v Hlp_Graph_Buttons}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Model Buttons}{\v Hlp_Model_Buttons}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Grouping Buttons}{\v Hlp_Grouping_Buttons}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Value_Window}
+${\footnote Value Window}
+K{\footnote Value Window}
++{\footnote Browse:0015}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Value Window}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The Value Window is located immediately underneath the menu bar and displays text and numeric }
+\ql{\f0\fs24\cf0\up0\dn0 information.  When File, Open is selected, the Value Window displays the file name, number of }
+\ql{\f0\fs24\cf0\up0\dn0 observations and the number of columns in that data set.  When Data, View Dates is selected, the Value }
+\ql{\f0\fs24\cf0\up0\dn0 Window displays the date-times of the current data set including any data that have been removed.   The }
+\ql{\f0\fs24\cf0\up0\dn0 Value Window also displays all model parameters and inferential statistics from the modeling operations.  }
+\ql{\f0\fs24\cf0\up0\dn0 This window may be cleared by clicking on the small box in the upper right hand corner of this window.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_File_Menu}
+${\footnote File Menu}
+K{\footnote File Menu}
++{\footnote Browse:0005}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 File Menu}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Input Data Types}{\v Hlp_Input_Data1}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Opening Data from a Text File}{\v Hlp_Opening_Data1}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Printing}{\v Hlp_Printing}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Saving Data}{\v Hlp_Saving_Data1}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Exiting Energy Explorer}{\v Hlp_Exiting_Energy}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Input_Data1}
+${\footnote Input Data Types}
+K{\footnote Input Data Types}
++{\footnote Browse:0010}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Input Data Types}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer can automatically upload data from Enertel databases or read {\uldb ASCII text data files}{\v Hlp_Opening_Data1}.  }{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Saving_Data1}
+${\footnote Saving Data}
+K{\footnote Saving Data}
++{\footnote Browse:0030}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Saving Data}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To save a data file for future analysis:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1.  Select File, Save Data from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2.  The Save As dialog box will appear.  Enter a new name in the text box or select the appropriate path and }
+\ql{\f0\fs24\cf0\up0\dn0 file name to replace.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3.  Click the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Edit_Menu}
+${\footnote Edit Menu}
+K{\footnote Edit Menu}
++{\footnote Browse:0040}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Edit Menu}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Copying Information to the Clipboard}{\v Hlp_Copying_Information}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Energy Explorer Text Editor}{\v Hlp_Energy_Explorer}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Data_Menu}
+${\footnote Data Menu}
+K{\footnote Data Menu}
++{\footnote Browse:0050}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Data Menu}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When data is uploaded or read into Energy Explorer from a source database or file, it is stored as the active }
+\ql{\f0\fs24\cf0\up0\dn0 data set in the computer's RAM memory.  Changing the data in the active data set does not change the }
+\ql{\f0\fs24\cf0\up0\dn0 data in the source database or data file.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Naming Variables}{\v Hlp_Naming_Variables}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Setting No-Data Flags}{\v Hlp_Setting_NoxData}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Creating Sub-Sets of the Data}{\v Hlp_Creating_SubxSets}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Displaying The Date/Times Of The Data Set}{\v Hlp_Displaying_The}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Modifying Data Values}{\v Hlp_Modifying_Data}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Creating New Variables}{\v Hlp_Creating_New}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Deleting a Variable}{\v Hlp_Deleting_a}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Grouping Data}{\v Hlp_Grouping_Data}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Changing Time Scales}{\v Hlp_Changing_Time}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Averaging Intermittent Data}{\v Hlp_Averaging_Intermittent}  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Naming_Variables}
+${\footnote Naming Variables}
+K{\footnote Naming Variables}
++{\footnote Browse:0055}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Naming Variables}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      At any time during an Energy Explorer work session, the Define Variables box can be called by selecting }
+\ql{\f0\fs24\cf0\up0\dn0 Data, Name Variables from the menu.  In the Define Variable Names dialog box, you can change the }
+\ql{\f0\fs24\cf0\up0\dn0 variable names, use the variable names listed in a separate file, save the current variable names in a }
+\ql{\f0\fs24\cf0\up0\dn0 separate file for later use and change the no-data flag. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To change a variable name:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the variable from the Current Name box that you wish to change.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter a new name in the New Name text box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Change button to lock in the new name.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Repeat this sequence to change other variable names.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Load Names obutton to load the names without saving them, or the Save and Load Names }
+\ql{\f0\fs24\cf0\up0\dn0 button to save the names in a data file, preferably with the same name as the data file except with the }
+\ql{\f0\fs24\cf0\up0\dn0 filename extension ".var",  for future use before loading.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To save the current variable names in a separate file:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Save and Load Names button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter a file name, preferably the same name as the data file except with the filename extension }
+\ql{\f0\fs24\cf0\up0\dn0 ".var", in the File Save As dialog box that appears.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Setting_NoxData}
+${\footnote Setting No-Data Flags}
+K{\footnote Setting No-Data Flags}
++{\footnote Browse:0060}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Setting No-Data Flags}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer can read data from ASCII data files. When a data element is missing or unavailable, a }
+\ql{\f0\fs24\cf0\up0\dn0 numeric no-data flag such as -99 should be inserted in its place to ensure that each row of data has the }
+\ql{\f0\fs24\cf0\up0\dn0 same number of data elements.  Energy Explorer's default no-data flag is -99 for ASCII data files and -9.99 }
+\ql{\f0\fs24\cf0\up0\dn0 for Enertel database; however, any numeric value can be defined by selecting the menu items Data, Set }
+\ql{\f0\fs24\cf0\up0\dn0 No-Data Flag.  You can also change the no-data flag in the Define Variable Names dialog box as described }
+\ql{\f0\fs24\cf0\up0\dn0 in the previous sub-section.   }{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Creating_SubxSets}
+${\footnote Creating Sub-Sets of the Data}
+K{\footnote Creating Sub-Sets of the Data}
++{\footnote Browse:0065}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Creating Sub-Sets of the Data}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 If the conventions described above for naming date and time variables are followed, any subset of the data }
+\ql{\f0\fs24\cf0\up0\dn0 can be created by selecting Data, Select Dates from the menu.  The Select Dates dialog box will appear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To specify new starting and ending dates:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter the new starting and ending dates in the Start Date and End Date text boxes using the format }
+\ql{\f0\fs24\cf0\up0\dn0 described in the text box near the top of the dialog box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To remove data corresponding to specified dates: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter the start-date/time and end-date/time for the block of data to be removed in the Delete From: }
+\ql{\f0\fs24\cf0\up0\dn0 and Delete To: text boxes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Set button to lock in this choice.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)   Repeat this procedure to remove another block of data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When specifying dates, be sure to use the format described in the text box near the top of the dialog box.  }
+\ql{\f0\fs24\cf0\up0\dn0 End the select dates procedure by selecting the OK button.  Data removed using the Select Dates dialog }
+\ql{\f0\fs24\cf0\up0\dn0 box cannot be restored to the active data set without re-uploading or re-opening data from a source }
+\ql{\f0\fs24\cf0\up0\dn0 database of data file. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Displaying_The}
+${\footnote Displaying The Date/Times Of The Data Set}
+K{\footnote Displaying The Date/Times Of The Data Set}
++{\footnote Browse:0070}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Displaying The Date/Times Of The Data Set}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The start-date and end-date of the data set, the grouping of the data, and any blocks of data that were }
+\ql{\f0\fs24\cf0\up0\dn0 removed can be displayed in the Value Window at any time during the work session.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To see the date/times of the current data set:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Data, View Dates from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Modifying_Data}
+${\footnote Modifying Data Values}
+K{\footnote Modifying Data Values}
++{\footnote Browse:0075}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Modifying Data Values}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      Data values can be modified by selecting Data, Modify Variable from the menu.  Use this function to }
+\ql{\f0\fs24\cf0\up0\dn0 change units or rescale data.  The Modify Variable dialog box will appear.  Energy Explorer's built-in }
+\ql{\f0\fs24\cf0\up0\dn0 functions are listed in Table 5.1.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Table 5.1.  Built-in functions in the Data, Modify Variable procedure.}{
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Function Name}{\f0\fs24\cf0\up0\dn0\tab}{\ul\f0\fs24\cf0\up0\dn0 Action}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 F to C}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts degrees Fahrenheit to degrees Celsius}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 C to F}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts degrees Celsius to degrees Fahrenheit}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ( ) ^ constant}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the constant-power}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ( ) + constant}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Adds a constant}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ( ) - constant}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Subtracts a constant}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ( ) * constant}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Multiplies by a constant }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ( ) \\ constant}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Divides by a constant}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Abs ( )}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the absolute value}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 ln ( )}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the natural logarithm}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Exp( )}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the exponential}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Sin( )}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the Sine of a variable in radians}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Cos( )}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Returns the Cosine of a variable in radians}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Degs to Rads}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts degrees to radians}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Rads to Degs}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts radians to degrees}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 MBtu to kWh}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts Million Btu's to Kilowatts}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Kwh to Mbtu}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Converts Kilowatts to Million Btu's}{
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To use built-in functions:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the appropriate variable name in the Variable Name box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the appropriate function.  If the function chosen requires a constant, a Constant text box will }
+\ql{\f0\fs24\cf0\up0\dn0 appear to the right of the Modify By: box .  Enter the value of the constant in the text box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Set button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 When all variables have been modified, click the OK button to end the Modify Values procedure.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 No-data flags are not affected by the Data, Modify Variable procedure.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Creating_New}
+${\footnote Creating New Variables}
+K{\footnote Creating New Variables}
++{\footnote Browse:0080}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Creating New Variables}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      New variables can be created in the active data set by selecting Data, Create Variable from the menu.  }
+\ql{\f0\fs24\cf0\up0\dn0 The Create A New Variable Box dialog box will appear.  A new variable can be i) a duplicate of a current }
+\ql{\f0\fs24\cf0\up0\dn0 variable or ii) the product, quotient, sum or difference of two current variables.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To create a duplicate variable:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Type a name in the New Variable Name box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on a current variable in the Current Variables box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To create a new variable:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Type a name in the New Variable Name box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on a current variable in the Current Variables box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on an operator from the Operators box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on another variable in the Current Variables box.  The resulting equation will be displayed in the }
+\ql{\f0\fs24\cf0\up0\dn0 Equation box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)  Click on the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The new variable's value will be no-data flag if either of it's parent's values were no-data flag.  Almost any }
+\ql{\f0\fs24\cf0\up0\dn0 new variable may be created by iterative use of the Data, Modify Variable and Data, Create Variable }
+\ql{\f0\fs24\cf0\up0\dn0 procedures.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Deleting_a}
+${\footnote Deleting a Variable}
+K{\footnote Deleting a Variable}
++{\footnote Browse:0085}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Deleting a Variable}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Variables can be deleted from the active work set by selecting the menu items, Data, Delete Variable.  In }
+\ql{\f0\fs24\cf0\up0\dn0 the Delete Variables dialog box, select the variable to be deleted then click the Delete button.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Grouping_Data}
+${\footnote Grouping Data}
+K{\footnote Grouping Data}
++{\footnote Browse:0090}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Grouping Data}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 One of Energy Explorer's most useful features is its ability to group data.  Once a the data has been divided }
+\ql{\f0\fs24\cf0\up0\dn0 into groups using the following procedure, all graphs will display each group in a different color for easy }
+\ql{\f0\fs24\cf0\up0\dn0 identification.  In addition, the first time a model is selected, the model will only use data from the first group. }
+\ql{\f0\fs24\cf0\up0\dn0  The second time a model is selected, the model will only use data from the second group.  In this way, }
+\ql{\f0\fs24\cf0\up0\dn0 individual models can be generated from each group.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Data can be grouped by date and time for time-series based grouping or by the day of week to analyze }
+\ql{\f0\fs24\cf0\up0\dn0 weekday and weekend differences.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To group by date:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Data, Group by Date from the menu.  The dialog box Group by Date will appear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter the starting and/or ending dates for Group 1 in the Start Date and End Date text boxes using }
+\ql{\f0\fs24\cf0\up0\dn0 the format described in the text box near the top of the dialog box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter new names in the Group Names text boxes if desired.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 To cause graphs to show each group in a different color and models to apply to a single group only, }
+\ql{\f0\fs24\cf0\up0\dn0 click the G1G2 button in the lower right corner of the Energy Explorer work screen.  To graph and model all }
+\ql{\f0\fs24\cf0\up0\dn0 data as a single group,  click the Single Group button in the lower right corner of the Energy Explorer work }
+\ql{\f0\fs24\cf0\up0\dn0 screen. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  To group by day of week:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Data, Group by DOW from the menu.  The data will automatically be grouped into weekday }
+\ql{\f0\fs24\cf0\up0\dn0 and weekend groups. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 To cause graphs to show each group in a different color and models to apply to a single group only, }
+\ql{\f0\fs24\cf0\up0\dn0 click the G1G2 button in the lower right corner of the Energy Explorer work screen.  To graph and model all }
+\ql{\f0\fs24\cf0\up0\dn0 data as a single group,  click the Single Group button in the lower right corner of the Energy Explorer work }
+\ql{\f0\fs24\cf0\up0\dn0 screen.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Changing_Time}
+${\footnote Changing Time Scales}
+K{\footnote Changing Time Scales}
++{\footnote Browse:0095}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Changing Time Scales}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Another powerful data processing feature of Energy Explorer is its ability to change the timescale of the }
+\ql{\f0\fs24\cf0\up0\dn0 data.  For example, if the active data set originally contains hourly data, the user can integrate up to the }
+\ql{\f0\fs24\cf0\up0\dn0 monthly or yearly timescale.  Data can be switched back to the original timescale at any time during the }
+\ql{\f0\fs24\cf0\up0\dn0 work session.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To change the timescale of the data: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the menu items, Data, Timescales\'85  I}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 In the Timescale Options dialog box, consider which variables should be summed and which should }
+\ql{\f0\fs24\cf0\up0\dn0 be averaged.  For example, it may be appropriate to find the sum of energy use data over the new time }
+\ql{\f0\fs24\cf0\up0\dn0 interval; whereas temperature data should be averaged since the total temperature is not meaningful.  }
+\ql{\f0\fs24\cf0\up0\dn0 Select the variables to be averaged and push the right pointing arrow to move them into the Average text }
+\ql{\f0\fs24\cf0\up0\dn0 box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Next consider how to handle no-data flags.  For example, some data channels in an hourly data set }
+\ql{\f0\fs24\cf0\up0\dn0 may contain no-data flags.  When changing to a daily timescale, you may 1) set the value of the daily record }
+\ql{\f0\fs24\cf0\up0\dn0 which contains the no-data flag equal to no-data flag, or 2) set the value of the daily record to the average or }
+\ql{\f0\fs24\cf0\up0\dn0 sum of the remaining hours in the day.  Specify, how to handle no-data flags by clicking either:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 -If NoData then set Avg/Total to NoData, or}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 -If NoData then calculate Avg/Total using available data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Averaging_Intermittent}
+${\footnote Averaging Intermittent Data}
+K{\footnote Averaging Intermittent Data}
++{\footnote Browse:0100}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Averaging Intermittent Data}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Some data sets may contain data recorded at uneven intervals.  To find the time average, select the menu }
+\ql{\f0\fs24\cf0\up0\dn0 items Data, Average Intermittent Data\'85.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Graphical_Analysis}
+${\footnote Graphical Analysis}
+K{\footnote Graphical Analysis}
++{\footnote Browse:0105}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Graphical Analysis}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Time-series graphs,  XY graphs and histograms are the foundation of graphical data analysis.  Use time-}
+\ql{\f0\fs24\cf0\up0\dn0 series graphs to see how a variable changes over time.  Use XY graphs to examine the relationships }
+\ql{\f0\fs24\cf0\up0\dn0 between variables.  Animated XY graphs show how the relationship between two variables changes over }
+\ql{\f0\fs24\cf0\up0\dn0 time.  Histograms describe the frequency distribution of a variable.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 These links describe Energy Explorer' graphing features.  In general, graphing is accomplished by selecting }
+\ql{\f0\fs24\cf0\up0\dn0 channels in the Y Variable and X Variable list boxes and then clicking on the desired graph button.  }
+\ql{\f0\fs24\cf0\up0\dn0 Additional graphing features can be accessed under the Graphics menu item.  These links describes both }
+\ql{\f0\fs24\cf0\up0\dn0 the use of the graph buttons and the Graphics menu items. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Time-Series Graphs}{\v Hlp_TimexSeries_Graphs}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb XY Graphs}{\v Hlp_XY_Graphs}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Animated XY Graphs}{\v Hlp_Animated_XY}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Histograms}{\v Hlp_Histograms}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Value Identification}{\v Hlp_Value_Identification}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Grid Lines}{\v Hlp_Grid_Lines}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_TimexSeries_Graphs}
+${\footnote Time-Series Graphs}
+K{\footnote Time-Series Graphs}
++{\footnote Browse:0005}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Time-Series Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer provides time series graphs with both zoom and overlay capabilities.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To view a time-series graph of a variable:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the variable to be displayed from the Y Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Time Series button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To view a second time-series trace on the same graph:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)   }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the second variable to be displayed from the Y Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the 2 button.  This variable's name and scale are displayed on the right side of the graph }
+\ql{\f0\fs24\cf0\up0\dn0 window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To view subsequent time-series traces on the same graph:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the variable to be displayed from the Y Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the 2 button.  Note: the scale at the right of the graph window will reflect only the most recently }
+\ql{\f0\fs24\cf0\up0\dn0 selected variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To view two time-series traces with equal Y-scales:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the Graphics, Single Scale from the menu.  A check mark will appear next to the Graphics, }
+\ql{\f0\fs24\cf0\up0\dn0 Single Scale menu item indicating that single scale mode is active.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 If not previously selected and displayed, select the first variable to be displayed from the Y Variable }
+\ql{\f0\fs24\cf0\up0\dn0 box and click the Time Series button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the second variable to be displayed from the Y Variable box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the 2 button.  The first and second time series traces will be re-drawn with equal y-scales.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the Graphics, Single Scale from the menu to de-activate single scale mode.  The check mark }
+\ql{\f0\fs24\cf0\up0\dn0 next to the Graphics, Single Scale menu item will disappear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To zoom in on a portion of a time-series graph:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Zoom In from the menu.  A check mark will appear next to the Graphics, Zoom In }
+\ql{\f0\fs24\cf0\up0\dn0 menu item, the check mark next to  the Graphics, Point menu item will disappear and the pointer will change }
+\ql{\f0\fs24\cf0\up0\dn0 to a cross-hair in the graph window.  The check-mark next to Graphics, Zoom In and cross-hair pointer }
+\ql{\f0\fs24\cf0\up0\dn0 indicate that Energy Explorer is in zoom-mode.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Drag over the date/times to be viewed with the mouse.  The "zoomed" view will be displayed. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Point  from the menu to return to point-mode.  The check mark next to the Graphics, }
+\ql{\f0\fs24\cf0\up0\dn0 Zoom In menu item will disappear and the cross-hair will return to a pointer.  In zoom-mode, the graph can }
+\ql{\f0\fs24\cf0\up0\dn0 be repeatedly enlarged by zooming.  In point-mode, individual data points can be identified  by simply }
+\ql{\f0\fs24\cf0\up0\dn0 clicking on the data points.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To return to a time-series view of the entire data set.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Zoom Out from the menu.  A full data-set, time series graph of the variable currently }
+\ql{\f0\fs24\cf0\up0\dn0 selected in the Y-Variable box will be displayed.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 To return to point mode, you must select Graphics, Point if you were in zoom in mode.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_XY_Graphs}
+${\footnote XY Graphs}
+K{\footnote XY Graphs}
++{\footnote Browse:0010}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 XY Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To view a XY graph of two variables:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the variable to be displayed on the vertical (Y) axis from the Y Variable list box and the }
+\ql{\f0\fs24\cf0\up0\dn0 variable to be displayed on the horizontal (X) axis from the X Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the XY button}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Repeat to view a different variables.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Animated_XY}
+${\footnote Animated XY Graphs}
+K{\footnote Animated XY Graphs}
++{\footnote Browse:0015}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Animated XY Graphs}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  To view how the relationship between two variables changes over time:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)  }{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the variable to be displayed on the vertical (Y) axis from the Y Variable list box and the }
+\ql{\f0\fs24\cf0\up0\dn0 variable to be displayed on the horizontal (X) axis from the X Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the XY Animate button.  The Animation Control dialog box will appear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Adjust the Speed arrow and determine how many points to display in the Number of Points To }
+\ql{\f0\fs24\cf0\up0\dn0 Display box.  It is recommended to run the animation at the fastest speed the first time.  Then , if necessary, }
+\ql{\f0\fs24\cf0\up0\dn0 slow it down a little at a time.  An animation cannot be stopped after it starts.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Set the Clear Screen button.  If this box contains an "X", then all graphs contained in the Graph }
+\ql{\f0\fs24\cf0\up0\dn0 Window will be cleared.  If you would like to animate around an object currently contained in the Graph }
+\ql{\f0\fs24\cf0\up0\dn0 Window, such as a model line, then click on the Clear Screen button until that box is blank.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Begin button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 6)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Quit button to remove the Animation Control dialog box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Histograms}
+${\footnote Histograms}
+K{\footnote Histograms}
++{\footnote Browse:0020}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Histograms}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Histograms display a channel's frequency and probability distributions.  To create a histogram plot:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Note a channel's maximum and minimum values by viewing a time-series plot of the channel. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Make sure the channel is still selected in the Y Variable list box and then click the Histogram button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 In the Histogram dialog box (Figure 6.2), enter approximate maximum and minimum values for the }
+\ql{\f0\fs24\cf0\up0\dn0 channel and select the number of intervals into which the data range (Ymax - Ymin) will be divided.  Click }
+\ql{\f0\fs24\cf0\up0\dn0 OK.  For example, if a the values of a channel ranged 9 to 183, you may want to choose Ymin = 0, Ymax = }
+\ql{\f0\fs24\cf0\up0\dn0 200 and Num Intervals = 10 to create 10 intervals of width 20.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0   }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 In the histogram that is displayed, the frequency of occurrence in each interval is shown on the left-hand }
+\ql{\f0\fs24\cf0\up0\dn0 side of the graph.  The probability of a value appearing in an interval is plotted along the right-hand side of }
+\ql{\f0\fs24\cf0\up0\dn0 the graph.  If the G1|G2 button is selected then the probabilities will be shown along the right-hand side of }
+\ql{\f0\fs24\cf0\up0\dn0 the plot as Group One probability, followed by a slash, followed by Group Two probability.  The Group One }
+\ql{\f0\fs24\cf0\up0\dn0 graph will appear on the left-hand side of the Graph Window and the Group Two graph will appear on the }
+\ql{\f0\fs24\cf0\up0\dn0 right-hand side of the Graph Window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      The number and frequency of observations in each data interval are described in the Value Window.  }
+\ql{\f0\fs24\cf0\up0\dn0 The values in each parenthesis are: 1) the interval number, 2) the number of observations in the interval, }
+\ql{\f0\fs24\cf0\up0\dn0 and 3) the frequency of observations in the interval.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Value_Identification}
+${\footnote Value Identification}
+K{\footnote Value Identification}
++{\footnote Browse:0025}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Value Identification}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The value and time of any data point displayed on a graph can be identified by clicking on the point with the }
+\ql{\f0\fs24\cf0\up0\dn0 mouse.  The value and time of that point will be displayed in the Value Window.  The cursor, which is }
+\ql{\f0\fs24\cf0\up0\dn0 displayed as a large square data point, will be set to the selected point.  When multiple points lie on top of }
+\ql{\f0\fs24\cf0\up0\dn0 each other, the values and times of all of the points will be displayed and the cursor will be set to the last }
+\ql{\f0\fs24\cf0\up0\dn0 point.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Data values can be displayed sequentially by pushing the forward arrow or backward arrow on the }
+\ql{\f0\fs24\cf0\up0\dn0 keyboard.  This advances the cursor to the next or previous data point in time.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Grid_Lines}
+${\footnote Grid Lines}
+K{\footnote Grid Lines}
++{\footnote Browse:0030}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Grid Lines}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 A grid of lines corresponding to the X and Y axis labels can be superimposed on any graph.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  To display a grid:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Grid from the menu.  A check mark appears next to the menu item.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Create any graph described above.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To remove a grid:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Grid from the menu.  The check mark next to the menu item disappears.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Create any graph described above.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The grid function remains active as long as the Graphics, Grid menu item remains checked.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Modeling}
+${\footnote Modeling}
+K{\footnote Modeling}
++{\footnote Browse:0035}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Modeling}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer supports mean, median, simple linear regression, multi-linear change-point regression, }
+\ql{\f0\fs24\cf0\up0\dn0 multivariable regression and bin-fit models.  These models were specifically chosen or developed to model }
+\ql{\f0\fs24\cf0\up0\dn0 the most common patterns of building and facility energy use.  This chapter describes each type of model }
+\ql{\f0\fs24\cf0\up0\dn0 and gives some guidance for their appropriate use.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Because of the general importance of energy use models, we refer to "energy use" throughout this chapter }
+\ql{\f0\fs24\cf0\up0\dn0 as the dependent, y, value for each model.  However, the Energy Explorer models are generic and can be }
+\ql{\f0\fs24\cf0\up0\dn0 used to determine correlations between any type of variables.    }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer regression models are named according to the number of regression pararameters, P, in }
+\ql{\f0\fs24\cf0\up0\dn0 the model.  For example, the 2P model is a simple linear regression model in the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y = b1 + b2 X}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 specified by a y-intercept b1 and a slope b2.  3P, 4P and 5P models require 3, 4 and 5 regression }
+\ql{\f0\fs24\cf0\up0\dn0 coefficients, respectively.  3P, 4P and 5P models are called change-point models because the model }
+\ql{\f0\fs24\cf0\up0\dn0 consists of two or more linear line segments joined by a change point.  Change-point models are }
+\ql{\f0\fs24\cf0\up0\dn0 appropriate for modeling energy use that is non-linearly correlated with an independent variable. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Frequently, energy use is influenced by more than one independent variable.  For these cases, Enertel }
+\ql{\f0\fs24\cf0\up0\dn0 Analysis supports multiple-variable (MVR) forms of the basic 2P, 3P, 4P and 5P models.  The Bin Fit model }
+\ql{\f0\fs24\cf0\up0\dn0 is useful for modeling highly non-linear energy use.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Running a Model}{\v Hlp_Running_a}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Mean and Median Models}{\v Hlp_Mean_and} }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb 2P and 2P+MVR Models}{\v Hlp_2P_and}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb 3P and 3P+MVR Models}{\v Hlp_3P_and}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb 4P and 4P+MVR Models}{\v Hlp_4P_and}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb 5P and 5P+MVR Models}{\v Hlp_5P_and}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Bin Fit Models}{\v Hlp_Bin_Fit}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Modeling Groups}{\v Hlp_Modeling_Groups}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Prediction Intervals}{\v Hlp_Prediction_Intervals}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Residual Analysis}{\v Hlp_Residual_Analysis}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Model Parameters and Statistics}{\v Hlp_Model_Parameters}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Mean_and}
+${\footnote Mean and Median Models}
+K{\footnote Mean and Median Models}
++{\footnote Browse:0040}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Mean and Median Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When energy use is not correlated with other variables, use a mean or median model to quantitatively }
+\ql{\f0\fs24\cf0\up0\dn0 describe the "center" of the energy use data.  The mean model is calculated as the sum of all y values }
+\ql{\f0\fs24\cf0\up0\dn0 divided by the number of y values in the sum.  The median value is determined such that there are equal }
+\ql{\f0\fs24\cf0\up0\dn0 numbers of values that are greater and less than the median.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_2P_and}
+${\footnote 2P and 2P+MVR Models}
+K{\footnote 2P and 2P+MVR Models}
++{\footnote Browse:0045}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 2P and 2P+MVR Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When energy use appears to be linearly correlated with a single variable, use a 2P model. The 2P model is }
+\ql{\f0\fs24\cf0\up0\dn0 a simple linear regression model of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y = b1 + b2 X1}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b1 and b2 are regression coefficients, X1 is the independent variable and Y is the dependent }
+\ql{\f0\fs24\cf0\up0\dn0 variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 2P+MVR}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When energy use is influenced by more than one independent variable, you can create a multivariable }
+\ql{\f0\fs24\cf0\up0\dn0 regression (MVR) model by clicking on the M button next to the 2P button.  2P+MVR models can have up to }
+\ql{\f0\fs24\cf0\up0\dn0 six independent variables, and are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1  +  b2 X1  +  b3 X2  +  b4 X3 +  b5 X4  +  b6 X5  +  b7 X6}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b1 through b7 are regression coefficients, and X1 through X6 are optional independent variables.  In }
+\ql{\f0\fs24\cf0\up0\dn0 a 2P+MVR model, all independent variables are modeled as being linearly related to the dependent Y }
+\ql{\f0\fs24\cf0\up0\dn0 variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_3P_and}
+${\footnote 3P and 3P+MVR Models}
+K{\footnote 3P and 3P+MVR Models}
++{\footnote Browse:0050}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 3P and 3P+MVR Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When energy use appears to be linearly correlated with an independent variable over part of the }
+\ql{\f0\fs24\cf0\up0\dn0 independent variable's range and uncorrelated over the other part, use a 3P model.  There are two forms of }
+\ql{\f0\fs24\cf0\up0\dn0 the 3P model, 3PC and 3PH.  The "C"  and "H" refer to cooling and heating.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3PC models are often useful for modeling electricity use versus outdoor air temperature in residences with }
+\ql{\f0\fs24\cf0\up0\dn0 an air conditioner.  During colder winter temperatures, electricity use is uncorrelated with temperature and }
+\ql{\f0\fs24\cf0\up0\dn0 appears to be rather flat on a electricity use versus outdoor air temperature plot.  During warmer summer }
+\ql{\f0\fs24\cf0\up0\dn0 months, electricity use usually increases with outdoor air temperature.  In these cases, a 3PC model of }
+\ql{\f0\fs24\cf0\up0\dn0 electricity use versus outdoor air temperature will typically provide a good fit to the data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Similarly, 3PH models are often useful for modeling residential natural gas or heating oil use.  During colder }
+\ql{\f0\fs24\cf0\up0\dn0 winter temperatures, gas or oil use typically increases as the temperature declines. During warmer summer }
+\ql{\f0\fs24\cf0\up0\dn0 months when the furnace is off, gas or oil use typically remains relatively constant for domestic hot water }
+\ql{\f0\fs24\cf0\up0\dn0 and cooking purposes.  In these cases, a 3PH model of gas or oil use versus outdoor air temperature will }
+\ql{\f0\fs24\cf0\up0\dn0 typically provide a good fit to the data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3PC and 3PH models are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 YC  =  b1  +  b2 ( X1 - b3 )+}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 YH  =  b1  +  b2 ( X1 - b3 )-}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b1 is the y- coordinate of the change point, b2 is the slope term, and b3 is the x-coordinate of the }
+\ql{\f0\fs24\cf0\up0\dn0 change-point,.  The ( )+ and ( )- notations indicate that the values of the parenthetic term shall be set to zero }
+\ql{\f0\fs24\cf0\up0\dn0 when they are negative and positive respectively.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 3P+MVR}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  When the 3P model gives a good fit to the data, but energy use may be influenced by more than one }
+\ql{\f0\fs24\cf0\up0\dn0 independent variable, you can create a 3P+MVR model by clicking on the M button next to the 3PC or 3PH  }
+\ql{\f0\fs24\cf0\up0\dn0 buttons.  3P+MVR models can have up to four independent variables, and are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 YC  =  b1  +  b2 ( X1 - b3 )+ +  b4 X2 +  b5 X3  +  b6 X4}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 YH  =  b1  +  b2 ( X1 - b3 )- +  b4 X2 +  b5 X3  +  b6 X4}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b4 through b6 are regression coefficients of the optional independent variables X2 through X4.  In a }
+\ql{\f0\fs24\cf0\up0\dn0 3P+MVR model, the first independent variable X1 is modeled with the 3P change-point and the additional }
+\ql{\f0\fs24\cf0\up0\dn0 independent variables are modeled as being linearly related to the dependent Y variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 3P Model Algorithm}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer constructs three parameter change-point models using a search routine combined with an }
+\ql{\f0\fs24\cf0\up0\dn0 indicator variable regression technique.  The form of the regression equation is:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 y = a + b (I  (x - xcp))}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where y is the dependent variable, x is the independent variable, a and b are parameters determined by }
+\ql{\f0\fs24\cf0\up0\dn0 regression, I is an indicator variable and xcp is the x change-point.  I is set to 0 or 1 according to the }
+\ql{\f0\fs24\cf0\up0\dn0 following rule:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 For 3P-CP-C:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 I = 0 when x <= xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 I = 1 when x > xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 For 3P-CP-H:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 I = 1 when x <= xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 I = 0 when x > xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To identify the x change-point, Energy Explorer utilizes a two-pass search routine.  On the first pass it }
+\ql{\f0\fs24\cf0\up0\dn0 divides the entire x interval (xmax - xmin) into ten equal sub-intervals.  It then sets each sub-interval }
+\ql{\f0\fs24\cf0\up0\dn0 boundary equal to x change-point, performs the above regression, and stores the x change-point value and }
+\ql{\f0\fs24\cf0\up0\dn0 sum of squared error for the regression. Energy Explorer then selects the x change-point value that yielded }
+\ql{\f0\fs24\cf0\up0\dn0 the lowest sum of squared error as the best x change-point on the first pass.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 On the second pass, Energy Explorer divides an interval from one sub-interval to the left and one sub-}
+\ql{\f0\fs24\cf0\up0\dn0 interval to the right of the best x change-point into ten new sub-intervals.  In the case that the best x change-}
+\ql{\f0\fs24\cf0\up0\dn0 point value lies at one of the end points of the original x interval, only the adjacent sub-interval is re-divided }
+\ql{\f0\fs24\cf0\up0\dn0 into ten new sub-intervals.  The search is then repeated as before and Energy Explorer selects the x }
+\ql{\f0\fs24\cf0\up0\dn0 change-point that yielded the lowest sum of squared error. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer reports the standard error of the y change-point as the standard error of the parameter a }
+\ql{\f0\fs24\cf0\up0\dn0 and the standard error of the slope as the standard error of the parameter b.  The standard error of the x-}
+\ql{\f0\fs24\cf0\up0\dn0 coordinate of the change point is reported as the width of the smallest x-interval in the search procedure to }
+\ql{\f0\fs24\cf0\up0\dn0 locate the best-fit model.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_4P_and}
+${\footnote 4P and 4P+MVR Models}
+K{\footnote 4P and 4P+MVR Models}
++{\footnote Browse:0055}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 4P and 4P+MVR Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The 4P model consists of two linear segments joined at a change-point.  When energy use appears to be }
+\ql{\f0\fs24\cf0\up0\dn0 non-linearly correlated with an independent variable, a 4P model may provide a good fit to the data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4P models fit a wide variety of energy use patterns including commercial heating and cooling energy use }
+\ql{\f0\fs24\cf0\up0\dn0 versus outside air temperature.  In some cases the change-point may have a physically identifiable }
+\ql{\f0\fs24\cf0\up0\dn0 meaning, such as the dew-point temperature of air passing over a cooling coil or a set-point temperature in }
+\ql{\f0\fs24\cf0\up0\dn0 a variable-air-volume HVAC system (Kissock et. al., 1999).  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4P models are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1  +  b2 (X1 - b4 )-  +  b3 (X1 - b4 )+}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b1 is the y-coordinate of the change point, b2  is the left slope, b3 is the right slope and b4 is the x-}
+\ql{\f0\fs24\cf0\up0\dn0 coordinate of the change point.  The ( )+ and ( )- notations indicate that the values of the parenthetic term }
+\ql{\f0\fs24\cf0\up0\dn0 shall be set to zero when they are negative and positive respectively.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 4P+MVR}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When the 4P model gives a good fit to the data, but energy use may be influenced by more than one }
+\ql{\f0\fs24\cf0\up0\dn0 independent variable, you can create a 4P+MVR model by clicking on the M button next to the 4P  button.  }
+\ql{\f0\fs24\cf0\up0\dn0 4P+MVR models can have up to three independent variables, and are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1  +  b2 (X1 - b4)-  +  b3 ( X1 - b4 )+  +  b5 X2  +  b6 X3}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b5 and b6 are regression coefficients of the optional independent variables X2 and X3.  In a 4P+MVR }
+\ql{\f0\fs24\cf0\up0\dn0 model, the first independent variable X1 is modeled as a 4P change-point model, and the additional }
+\ql{\f0\fs24\cf0\up0\dn0 independent variables are modeled as being linearly related to the dependent Y variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 4P Model Algorithm}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The four parameter change-point model algorithm is similar to the three parameter change-point model }
+\ql{\f0\fs24\cf0\up0\dn0 algorithm.  The regression equation is:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 y = a   +   b x   +   c I (x - xcp)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where y is the dependent variable, x is the independent variable, a, b and c are parameters determined by }
+\ql{\f0\fs24\cf0\up0\dn0 regression, I is an indicator variable and xcp is the x change-point.  I is set to 0 or 1 according to the }
+\ql{\f0\fs24\cf0\up0\dn0 following rule:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I = 0 when x <= xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I = 1 when x > xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer then uses the same search routine as was describe for the three parameter change-point }
+\ql{\f0\fs24\cf0\up0\dn0 algorithm to determine the x change-point.  The regression equation above then reduces to: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 y = a   +   b x}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 when x <= xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 y = (a - c xcp)   +   (b + c) x}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 when x > xcp}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer reports the standard error of the y change-point as the standard error of the parameter a, }
+\ql{\f0\fs24\cf0\up0\dn0 the standard error of the left slope as the standard error of the parameter b and the standard error of the }
+\ql{\f0\fs24\cf0\up0\dn0 right slope as the root sum of squares of the standard errors of b and c.  The standard error of the x-}
+\ql{\f0\fs24\cf0\up0\dn0 coordinate of the change point is reported as the width of the smallest x-interval in the search procedure to }
+\ql{\f0\fs24\cf0\up0\dn0 locate the best-fit model.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_5P_and}
+${\footnote 5P and 5P+MVR Models}
+K{\footnote 5P and 5P+MVR Models}
++{\footnote Browse:0060}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 5P and 5P+MVR Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  The 5P model consists of two sloped linear segments connected by a flat linear segment.  The linear }
+\ql{\f0\fs24\cf0\up0\dn0 segments are joined at two change-points.  Although, the 5P model can fit a wide variety of data patterns, it }
+\ql{\f0\fs24\cf0\up0\dn0 is especially useful when modeling U-shaped data. For example, the pattern of electricity use versus outside }
+\ql{\f0\fs24\cf0\up0\dn0 air temperature for a house with an electric heat pump is typically U-shaped.  Electricity use increases }
+\ql{\f0\fs24\cf0\up0\dn0 during both the winter and summer as heating and cooling loads increase.  Variable-air-volume fan }
+\ql{\f0\fs24\cf0\up0\dn0 electricity use can also show U-shaped behavior when plotted against outside air temperature.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      5P models are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1 +  b2 (X1 - b4 )-  +  b3 ( X1 - b5 )+}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b1 is the y-coordinate of the change points, b2  is the left slope, b3 is the right slope, b4 is the x-}
+\ql{\f0\fs24\cf0\up0\dn0 coordinate of the left change point, and b5 is the x-coordinate of the right change point.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 5P+MVR}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 When the 5P model gives a good fit to the data, but energy use may also be influenced by more than one }
+\ql{\f0\fs24\cf0\up0\dn0 independent variable, you can create a 5P+MVR model by clicking on the M button next to the 5P  button.  }
+\ql{\f0\fs24\cf0\up0\dn0 5P+MVR models can have up to two independent variables, and are of the form:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1 +  b2 ( X1 - b4 )-  +  b3 ( X1 - b5 )+  +  b6 X2  +  b7 X3}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where b6 and b7 are regression coefficients of the optional independent variables X2 and X3.  In a 5P+MVR }
+\ql{\f0\fs24\cf0\up0\dn0 model, the first independent variable X1 is modeled as a 5P change-point model, and the additional }
+\ql{\f0\fs24\cf0\up0\dn0 independent variables are modeled as being linearly related to the dependent Y variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 5P Model Algorithm}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The five parameter change-point model algorithm is similar to the three and four parameter change-point }
+\ql{\f0\fs24\cf0\up0\dn0 model algorithms.  The regression equation is:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1   +   b2 (X - Xcp1) I1   +   b3 (X - Xcp2) I2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where Y is the dependent variable, X is the independent variable, b1, is y intercept of the slope,  b2 is the }
+\ql{\f0\fs24\cf0\up0\dn0 left slope, b3 is the right slope, I1 and I2 are indicator variables and Xcp1 and Xcp2 are the left and right }
+\ql{\f0\fs24\cf0\up0\dn0 change points respectively.   I1 and I2 are set to 0 or 1 according to the following rules:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I1 = 1 when X <= Xcp1}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I1 = 0 when X > Xcp1}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I2 = 0 when X <= Xcp2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 I2 = 1 when X > Xcp2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To identify the x change-points, Energy Explorer utilizes a two-pass search routine.  On the first pass it }
+\ql{\f0\fs24\cf0\up0\dn0 divides the entire x interval (X max - X min) into ten equal sub-intervals.  It then finds all possible }
+\ql{\f0\fs24\cf0\up0\dn0 combinations of Xcp1 and Xcp2 subject to the constraints that change points are interval boundaries and }
+\ql{\f0\fs24\cf0\up0\dn0 Xcp2 > Xcp1.  Next Energy Explorer performs the above regression for each possible combination of }
+\ql{\f0\fs24\cf0\up0\dn0 change points, and stores the x change-point values and sum of squared error for each regression. Enertel }
+\ql{\f0\fs24\cf0\up0\dn0 Analysis selects the x change-point values that yielded the lowest sum of squared error as the best x }
+\ql{\f0\fs24\cf0\up0\dn0 change-points on the first pass.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 On the second pass, Energy Explorer divides an interval from one sub-interval to the left and one sub-}
+\ql{\f0\fs24\cf0\up0\dn0 interval to the right of the best Xcp1 and Xcp2 change-points into ten new sub-intervals for each change }
+\ql{\f0\fs24\cf0\up0\dn0 point.  It then finds all possible combinations of Xcp1 and Xcp2 change points subject to the constraint that }
+\ql{\f0\fs24\cf0\up0\dn0 Xcp2 > Xcp1.  Regressions are performed  as before and Energy Explorer selects the x change-points that }
+\ql{\f0\fs24\cf0\up0\dn0 yielded the lowest sum of squared error. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The regression equation above reduces to: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1   +   b2 (X - Xcp1)      when X <= Xcp1}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1     when X > Xcp1 and X <= Xcp2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Y  =  b1  +   b3 (X - Xcp2)    when X > Xcp2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  Energy Explorer reports the standard error of the y change-point as the standard error of the parameter b1, }
+\ql{\f0\fs24\cf0\up0\dn0 the standard error of the left slope as the standard error of the parameter b2 , the standard error of the right }
+\ql{\f0\fs24\cf0\up0\dn0 slope as the standard error of the parameter b23 and the standard errors of the x-coordinates of the change }
+\ql{\f0\fs24\cf0\up0\dn0 points as the width of the smallest x-interval in the search procedure.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Bin_Fit}
+${\footnote Bin Fit Models}
+K{\footnote Bin Fit Models}
++{\footnote Browse:0065}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Bin Fit Models}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The Bin Fit model divides the data into a specified number of  X Variable bins and then calculates the mean }
+\ql{\f0\fs24\cf0\up0\dn0 of the Y Variable in each bin.  The number of bins (intervals) is supplied by the user.  After running a Bin Fit }
+\ql{\f0\fs24\cf0\up0\dn0 model, the Graph Window displays a line connecting the mean values of each bin.  An ordered pair for each }
+\ql{\f0\fs24\cf0\up0\dn0 bin is displayed in the Value Window; each ordered pair describes the midpoint of the bin and the mean of }
+\ql{\f0\fs24\cf0\up0\dn0 the values in the bin respectively.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Running_a}
+${\footnote Running a Model}
+K{\footnote Running a Model}
++{\footnote Browse:0070}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Running a Model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To find the mean or medial of all values of a variable:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select a variable from the Y Variable list box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select a time series or XY plot of the variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the Mean or Median buttons.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To run a 2P, 3P, 4P , 5P or Bin Fit model:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the Y and X variables from the Y Variable and X Variable list boxes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)   Select an XY plot by clicking on the XY graph button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the appropriate model button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To run a 2P+MVR, 3P+MVR, 4P+MVR , or 5P+MVR model:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the Y and X variables from the Y Variable and X Variable list boxes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select an XY plot by clicking on the XY graph button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the M button to the right of the appropriate model button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 In the Multiple Regression dialog box that appears (Figure 7.2), choose Y from the Regressor box }
+\ql{\f0\fs24\cf0\up0\dn0 and select a variable from the Variable Name box to be the dependent (Y) variable.  Click the Set button to }
+\ql{\f0\fs24\cf0\up0\dn0 lock in this selection.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Choose X1 from the Regressor box and select a variable from the Variable Name box to be the first }
+\ql{\f0\fs24\cf0\up0\dn0 independent (X) variable.  Click the Set button to lock in this selection.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Repeat step 3 for additional independent (X) variables.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  To run a bin fit model:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the Y and X variables from the Y Variable and X Variable list boxes.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the Bin Fit button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 In the Bin Fit dialog box that appears (Figure 7.3), choose the number of intervals in which to divide }
+\ql{\f0\fs24\cf0\up0\dn0 the data.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the OK button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Modeling_Groups}
+${\footnote Modeling Groups}
+K{\footnote Modeling Groups}
++{\footnote Browse:0075}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Modeling Groups}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The active data set can be modeled as a single group or as two individual groups.  To graph and model all }
+\ql{\f0\fs24\cf0\up0\dn0 data as a single group, click the Single Group button in the lower right corner of the Energy Explorer work }
+\ql{\f0\fs24\cf0\up0\dn0 screen.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To generate a separate model for each of two groups:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Define groups according to the instructions in Grouping Data in Chapter 5.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the G1G2 button in the lower right corner of the Energy Explorer work screen before selecting a }
+\ql{\f0\fs24\cf0\up0\dn0 model.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The first model selected will apply to the first group and the second model will apply to the second group.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Prediction_Intervals}
+${\footnote Prediction Intervals}
+K{\footnote Prediction Intervals}
++{\footnote Browse:0080}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Prediction Intervals}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The 95% prediction intervals for any model can be displayed with the model line.  The prediction interval, PI, }
+\ql{\f0\fs24\cf0\up0\dn0 is:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  PI = t(1-a/2,n-p) * RMSE * (1 + 1/n + X')^.5.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where  a = 0.05, t is the t-statistic evaluated at (1-a/2, n-p), n is the number of observations, p is the number }
+\ql{\f0\fs24\cf0\up0\dn0 of parameters in the model and RMSE is the model's root mean square error.  X' is a term proportional to }
+\ql{\f0\fs24\cf0\up0\dn0 the distance from the mean value of X; since it is usually small when X is large, it is here assumed to be 0.  }
+\ql{\f0\fs24\cf0\up0\dn0 If Y is the value predicted by the model, then the 95% prediction interval is defined such that 95 out of 100 }
+\ql{\f0\fs24\cf0\up0\dn0 times, the next measured value of Y will be between Y + PI and Y - PI. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To display prediction intervals with a model:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Prediction Intervals from the menu. A check mark will appear in front of the menu }
+\ql{\f0\fs24\cf0\up0\dn0 item.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Activate a model as described above.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To remove the prediction intervals from a model:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select Graphics, Prediction Intervals from the menu. The check mark will disappear from in front of }
+\ql{\f0\fs24\cf0\up0\dn0 the menu item.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Activate a model as described above.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Residual_Analysis}
+${\footnote Residual Analysis}
+K{\footnote Residual Analysis}
++{\footnote Browse:0085}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Residual Analysis}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 A residual is defined as the difference between a data point and a model's prediction of the data point }
+\ql{\f0\fs24\cf0\up0\dn0 (yobserved - ypredicted ).  Model residuals from regression models are automatically calculated for }
+\ql{\f0\fs24\cf0\up0\dn0 graphical and statistical analysis.  Residuals are stored in variables called G1_Resids, G2_Resids and }
+\ql{\f0\fs24\cf0\up0\dn0 SG_Resids corresponding to Group One, Group Two or Single Group models.  The values stored in these }
+\ql{\f0\fs24\cf0\up0\dn0 variables always correspond to the last model run.  Residual variables can be graphed or modeled like any }
+\ql{\f0\fs24\cf0\up0\dn0 other variable.}{
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Model_Parameters}
+${\footnote Model Parameters and Statistics}
+K{\footnote Model Parameters and Statistics}
++{\footnote Browse:0090}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Model Parameters and Statistics}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Model parameters and statistics are displayed in the Value Window as soon as they are calculated.  This }
+\ql{\f0\fs24\cf0\up0\dn0 section defines and describes each parameter and statistic.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Model Parameters}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 N:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 number of observations used in the model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Ymean:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 mean of dependent (Y) variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Yint:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter indicating the y intercept}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Xn:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter corresponding to the nth independent variable.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 LS:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter corresponding to the left slope of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 RS:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter corresponding to the right slope of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Xcp:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter indicating the x change-point of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Xcp1:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter indicating the left x change-point of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Xcp2:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter indicating the right x change-point of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Ycp:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 model parameter indicating the y change-point of a multiple slope model}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Standard Error}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The standard error of each parameter is a measure of the certainty with which a model parameter is }
+\ql{\f0\fs24\cf0\up0\dn0 estimated.  Large standard errors indicate that the value of the parameter is not well known.  The standard }
+\ql{\f0\fs24\cf0\up0\dn0 error of each regression parameter is displayed in parenthesis following the parameter. The standard error }
+\ql{\f0\fs24\cf0\up0\dn0 is defined such that with a probability of (1-a), the true value of the parameter Ptrue will fall within the }
+\ql{\f0\fs24\cf0\up0\dn0 bounds:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Ptrue = Pestimated + t(1-a/2,n-p) x Standard Error(P)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Where t is the t statistic, n is the number of observations in the data set, and p is the number of regression }
+\ql{\f0\fs24\cf0\up0\dn0 parameters in the model.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Standard Deviation}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Standard deviation is a measure of the scatter of data around its mean.  Data that are tightly packed around }
+\ql{\f0\fs24\cf0\up0\dn0 the mean will have a small standard deviation.  The standard deviation is defined as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 StdDev = [(Sum(y - y}{\f0\fs24\cf0\dn7 mean}{\f0\fs24\cf0\up0\dn0 )}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  ) / (n-1)]}{\f0\fs24\cf0\up7 1/2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where y is an individual observation in the data set,  y}{\f0\fs24\cf0\dn7 mean}{\f0\fs24\cf0\up0\dn0  is the mean of the data set, and n is the number }
+\ql{\f0\fs24\cf0\up0\dn0 of observations in the data set.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Coefficient of Variation of the Standard Deviation}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The coefficient of variation of the standard deviation, CV-StdDev, is a dimensionless measure of the scatter }
+\ql{\f0\fs24\cf0\up0\dn0 of the data around its mean formed by dividing the standard deviation by the mean.  Energy Explorer }
+\ql{\f0\fs24\cf0\up0\dn0 expresses CV-StdDev as a percent.  The CV-StdDev is defined as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 CV-StdDev = (StdDev /  y}{\f0\fs24\cf0\dn7 mean}{\f0\fs24\cf0\up0\dn0 ) x 100}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Coefficient of Multiple Determination}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The coefficient of multiple determination, R}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0 , indicates how well the data is described by the model. R}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  = }
+\ql{\f0\fs24\cf0\up0\dn0 1.0 implies a perfect correlation between the data and model.  R}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  = 0.0 implies no correlation between the }
+\ql{\f0\fs24\cf0\up0\dn0 data and the model.  R}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  is defined as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  R}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  = 1 - [ (Sum(y - y}{\f0\fs24\cf0\dn7 pred}{\f0\fs24\cf0\up0\dn0 )}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  ) / (Sum(y - y}{\f0\fs24\cf0\dn7 mean}{\f0\fs24\cf0\up0\dn0 )}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  ) ]}{
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where y}{\f0\fs24\cf0\dn7 pred}{\f0\fs24\cf0\up0\dn0  is the value of y predicted by the model.}{
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Root Mean Square Error}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The root mean square error, RMSE, is a measure of the deviation of the data from the model.  The root }
+\ql{\f0\fs24\cf0\up0\dn0 mean square error is defined as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 RMSE = [ (Sum(y - y}{\f0\fs24\cf0\dn7 pred}{\f0\fs24\cf0\up0\dn0 )}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  ) / (n-p) ]}{\f0\fs24\cf0\up7 1/2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where p is the number of regression coefficients in the model.}{\f0\fs24\cf0\up0\dn0\tab}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 Coefficient of Variation of the Root Mean Square Error}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Coefficient of variation of the root mean square error, CV-RMSE, is a non-dimensional measure of the }
+\ql{\f0\fs24\cf0\up0\dn0 deviation of the data from the model formed by dividing a model's RMSE by the mean of the data.  The }
+\ql{\f0\fs24\cf0\up0\dn0 coefficient of variation of the root mean square error is defined as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 CV-RMSE = (RMSE /  y}{\f0\fs24\cf0\dn7 mean}{\f0\fs24\cf0\up0\dn0 ) x 100}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Measuring_Retrofit}
+${\footnote Measuring Retrofit Savings}
+K{\footnote Measuring Retrofit Savings}
++{\footnote Browse:0105}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Measuring Retrofit Savings}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To measure retrofit savings:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 The data set must include energy use data from both the pre and post-retrofit periods.  The data set }
+\ql{\f0\fs24\cf0\up0\dn0 should also include other variables that are thought to influence energy use.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 The data should be grouped into pre and post-retrofit groups (See "Grouping Data" in Chapter 5).}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Use Energy Explorer' graphing and modeling features to generate models of pre-retrofit energy use.  }
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 If pre-retrofit energy consumption is not correlated with any influential variables in the data set, then use a }
+\ql{\f0\fs24\cf0\up0\dn0 mean model.  If the data is correlated with influential variables, such as outdoor air temperature or }
+\ql{\f0\fs24\cf0\up0\dn0 occupancy, then create a regression model that captures this dependency.  Use your judgment to only }
+\ql{\f0\fs24\cf0\up0\dn0 include independent variables that are known to influence energy consumption. The accuracy of the }
+\ql{\f0\fs24\cf0\up0\dn0 estimate of retrofit savings depends directly on the accuracy of the pre-retrofit model.  Thus, experiment }
+\ql{\f0\fs24\cf0\up0\dn0 until you find a pre-retrofit model that is based on variables that influence energy use and has as low of CV-}
+\ql{\f0\fs24\cf0\up0\dn0 RMSE as possible. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select the menu items Savings, Calculate Savings.  The model's estimate of unretrofitted energy use }
+\ql{\f0\fs24\cf0\up0\dn0 during the post-retrofit period, the measured post-retrofit energy use, and the savings will be displayed in }
+\ql{\f0\fs24\cf0\up0\dn0 the Value Window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Savings_Measurement}
+${\footnote Savings Measurement Algorithms}
+K{\footnote Savings Measurement Algorithms}
++{\footnote Browse:0110}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Savings Measurement Algorithms}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Savings are calculated as the difference between the post-retrofit energy consumption predicted by the pre-}
+\ql{\f0\fs24\cf0\up0\dn0 retrofit model, Epre,  and the measured energy consumption during the post-retrofit period, Emeas.  The }
+\ql{\f0\fs24\cf0\up0\dn0 procedure to calculate savings is summarized as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Esave = Sum [ Epre  - Epost] over m data observations in the post-retrofit period.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The uncertainty of the estimate of savings depends on the accuracy of the pre-retrofit model's prediction of }
+\ql{\f0\fs24\cf0\up0\dn0 energy use epre and the error associated with measuring the post-retrofit energy consumption emeas.  The }
+\ql{\f0\fs24\cf0\up0\dn0 uncertainty of the model's prediction of energy use is estimated as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 e}{\f0\fs24\cf0\dn7 pre}{\f0\fs24\cf0\up0\dn0  = 1.96 RMSE (m (1 + 2/n))}{\f0\fs24\cf0\up7 1/2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 where RMSE is the root mean square error of the pre-retrofit model, m is the number of post-retrofit }
+\ql{\f0\fs24\cf0\up0\dn0 observations and n is the number of pre-retrofit observations in the data set.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 By default, Energy Explorer assumes a measurement error of 2% of the measured energy consumption.  }
+\ql{\f0\fs24\cf0\up0\dn0 The measurement error can be changed by selecting the menu items Savings, Define Measurement Error. }
+\ql{\f0\fs24\cf0\up0\dn0 The total measurement error is estimated as: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 e}{\f0\fs24\cf0\dn7 meas}{\f0\fs24\cf0\up0\dn0  = (percent error)  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Assuming that the predicition and uncertainty errors are independent, the uncertainty of savings is }
+\ql{\f0\fs24\cf0\up0\dn0 estimated as:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 e}{\f0\fs24\cf0\dn7 save}{\f0\fs24\cf0\up0\dn0  = (e}{\f0\fs24\cf0\dn7 pre}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0  + e}{\f0\fs24\cf0\dn7 meas}{\f0\fs24\cf0\up7 2}{\f0\fs24\cf0\up0\dn0 )}{\f0\fs24\cf0\up7 1/2}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Acknowledgments}
+${\footnote Acknowledgments}
+K{\footnote Acknowledgments}
++{\footnote Browse:0115}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Acknowledgments}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Kelly Kissock's interest in data exploration grew from working with the Voyager software and Dr. Rudolf }
+\ql{\f0\fs24\cf0\up0\dn0 Husar at Washington University Center for Air Pollution Impact and Trend Analysis.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Early versions of Energy Explorer were developed at the Texas A&M University Energy Systems Laboratory }
+\ql{\f0\fs24\cf0\up0\dn0 (TAMU-ESL).  The direction, assistance and support of Dr. David Claridge, Dr. Jeff Haberl, Dr. Agami }
+\ql{\f0\fs24\cf0\up0\dn0 Reddy and Mr. Robert Sparks are gratefully acknowledged.   }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The sample data sets DAILY2.DAT AND HOURLY.DAT were recorded by the Texas A&M University }
+\ql{\f0\fs24\cf0\up0\dn0 Energy Systems Laboratory as part of the Texas LoanSTAR program.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The 3P and 5P models are derivations of the variable-base degree-day savings measurement techniques }
+\ql{\f0\fs24\cf0\up0\dn0 incorporated in the Princeton Scorekeeping Method (PRISM): }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Fels, M., 1986, "Special Issue Devoted to Measuring Energy Savings: The Scorekeeping Approach", Energy }
+\ql{\f0\fs24\cf0\up0\dn0 and Buildings, Volume 9, Numbers 1 & 2.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Fels, M., Kissock, K., Marean, M. and Reynolds, C., 1995, "PRISM Advanced Version 1.0 User's Guide", }
+\ql{\f0\fs24\cf0\up0\dn0 Center for Energy and Environmental Studies, Princeton University, Princeton, NJ.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 A early version of the 4P model was described by: }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Ruch, D. and Claridge, D., 1991, "A Four Parameter Change-Point Model for Predicting Energy }
+\ql{\f0\fs24\cf0\up0\dn0 Consumption in Commercial Buildings", Solar Engineering, 1991: Proceedings of the ASME-JSES-KSES }
+\ql{\f0\fs24\cf0\up0\dn0 International Solar Energy Conference, Reno, Nevada, March.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Dr. Jeff Haberl of the Texas A&M University Energy Systems Laboratory originated the idea of a bin-fit }
+\ql{\f0\fs24\cf0\up0\dn0 model.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 An early version of the XY Animation feature was described by:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Sparks, R.J. and Haberl, J.S., 1993, "User's Manual for Animate: Version Beta 1.0, Public Domain }
+\ql{\f0\fs24\cf0\up0\dn0 Software", Copyright Texas Engineering Extension Service, Texas A&M University.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Statistical references include:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Miller, A., 1981, "Basic Programs for Scientists and Engineers", Sysbex Inc.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Neter, J., Wasserman, W. and Kutner, M., 1989, "Applied Linear Regression Models", Second Edition, }
+\ql{\f0\fs24\cf0\up0\dn0 Richard D. Irwin, Inc.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Opening_Data1}
+${\footnote Opening Data from a Text File}
+K{\footnote Opening Data from a Text File}
++{\footnote Browse:0010}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Opening Data from a Text File}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer can read data from ASCII text data files.  ASCII data files should contain only numeric }
+\ql{\f0\fs24\cf0\up0\dn0 values.  The data file should have the same number of data elements in each row of data.  Each element }
+\ql{\f0\fs24\cf0\up0\dn0 should be separated from the following element by one or more spaces.  When a data element is missing or }
+\ql{\f0\fs24\cf0\up0\dn0 unavailable, a numeric no-data flag such as -99 should be inserted in its place to ensure that each row of }
+\ql{\f0\fs24\cf0\up0\dn0 data has the same number of data elements.  Energy Explorer's default no-data flag is -99, however, any }
+\ql{\f0\fs24\cf0\up0\dn0 numeric value can be defined by selecting the menu items Data, Set No-Data Flag.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The first 19 records in the sample data file DAILY2.DAT are shown in Figure 3.2.  Although DAILY2.DAT }
+\ql{\f0\fs24\cf0\up0\dn0 contains daily data", Energy Explorer can also analyze data on yearly, monthly, hourly or sub-hourly }
+\ql{\f0\fs24\cf0\up0\dn0 timescales.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      16      1990       1    61.8   27.23     -99      76}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      17      1990       1    65.2   25.68     -99      79}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      18      1990       1    44.2   35.21     -99      64}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      19      1990       1    42.6   38.66     -99      62}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      20      1990       1    52      32.76     -99      70}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      21      1990       1    44.8   41.29     -99      63}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      22      1990       1    36.8   44.2       -99      57}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      23      1990       1     -99      -99       -99      58}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      24      1990       1    41      39.66     -99      63}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      25      1990       1    41.8   37.66     -99      64}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      26      1990       1    43.2   37.39     -99      62}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      27      1990       1    45.2   33.49     -99      65}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      28      1990       1    46.8   32.49     -99      68}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      29      1990       1    48.4   34.21     -99      68}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      30      1990       1    52.8   33.85     -99      67}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      10      31      1990       1    55.6   33.31     -99      68}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      11       1       1990       1    53.2   32.13     -99      68}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      11       2       1990       1    57.2   31.67     -99      70}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0    114      11       3       1990       1    61      29.86     -99      75}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Figure 3.2.  Data from the sample data file DAILY2.DAT. Each column (field) represents a different data }
+\ql{\f0\fs24\cf0\up0\dn0 channel. Columns 2, 3 and 4 are month, day and year (the names of all channels are shown in Figure 3.4).  }
+\ql{\f0\fs24\cf0\up0\dn0 Each row (record) represents a day of data.  The -99 values are no-data flags and indicate that no data was }
+\ql{\f0\fs24\cf0\up0\dn0 available for a particular period.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Format For Date and Time Variables in ASCII Text Data Files}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer can automatically produce time-series graphs, identify the time and date of data points, and }
+\ql{\f0\fs24\cf0\up0\dn0 group data if certain conventions for specifying the names and values of the date and time variables are }
+\ql{\f0\fs24\cf0\up0\dn0 followed.  These conventions are described in Table 1.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\ul\f0\fs24\cf0\up0\dn0 For the field containing:}{\f0\fs24\cf0\up0\dn0\tab}{\ul\f0\fs24\cf0\up0\dn0 Use the data format:}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\ul\f0\fs24\cf0\up0\dn0 Use the variable name}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Year}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 1993}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Yr}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Month}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 1-12}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Mo}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Day}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 1-31}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Dy}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Hour}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 0-23 or 1-24}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Hr}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Minute}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 1-60}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Mn}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Day of Week}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 1-7: 1=Sun, 2=Mon,...}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 (Any name is acceptable)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Table 3-1.  Formats and variable names for date and time fields.  These formats must be followed exactly or }
+\ql{\f0\fs24\cf0\up0\dn0 Energy Explorer may not recognize the date-time stamp. (Energy Explorer may be able to read some two-}
+\ql{\f0\fs24\cf0\up0\dn0 digit year dates,  but use of four- digit year dates is strongly encouraged).}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 The date and time fields can appear in any order or location within the data file.  Only the date and time }
+\ql{\f0\fs24\cf0\up0\dn0 variables that are necessary to identify the date and time need be specified; for example, monthly data }
+\ql{\f0\fs24\cf0\up0\dn0 requires only the "Yr" and "Mo" variables}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Opening An ASCII Text Data File}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To open a data file for analysis:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select File, Open Data from Text File from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 In the File Open dialog box that appears, select the appropriate path and file name, then press the }
+\ql{\f0\fs24\cf0\up0\dn0 OK button.  The file name, number of records (rows) and fields (columns) in the data file will be displayed in }
+\ql{\f0\fs24\cf0\up0\dn0 the Value Window.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Specifying Variable Names}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 After opening an ASCII data file, Energy Explorer looks for a variable-name file with the same name as the }
+\ql{\f0\fs24\cf0\up0\dn0 data file, but with filename extension ".VAR".  This file should be located in the same path as the data file.  If }
+\ql{\f0\fs24\cf0\up0\dn0 found, it automatically loads these variable names. To open a different variable-name file, select the menu }
+\ql{\f0\fs24\cf0\up0\dn0 items: File, Open Names from Text File.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To create a variable-name file, use the Energy Explorer text editor (or any other text editor or word }
+\ql{\f0\fs24\cf0\up0\dn0 processor that can save files in ASCII text format).  To do so, select Edit, Editor from the menu and type }
+\ql{\f0\fs24\cf0\up0\dn0 each variable name onto a separate line.  Save this file in the same directory as the data file using the same }
+\ql{\f0\fs24\cf0\up0\dn0 file name as data file, but with the filename extension ".VAR". For example the variable-name file for the }
+\ql{\f0\fs24\cf0\up0\dn0 data file "DAILY2.DAT" is "DAILY2.VAR".  To make full use of Energy Explorer' time series capabilities, use }
+\ql{\f0\fs24\cf0\up0\dn0 the variable names "Mo", "Dy", "Yr", "Hr" and "Mn" to describe data channels containing the month, day, }
+\ql{\f0\fs24\cf0\up0\dn0 year, hour and minute (as needed) of each data record.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 DAILY2.VAR is shown in Figure 3.4.  Since DAILY2.DAT contains data recorded on the daily timescale, }
+\ql{\f0\fs24\cf0\up0\dn0 only the month day and year are needed (hour and minute are unneeded) to specify the date/timestamp of }
+\ql{\f0\fs24\cf0\up0\dn0 each record.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Figure 3.4.  Variable names in DAILY2.VAR for the for the 9 columns of data in DAILY2.DAT.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Site}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Mo}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Dy}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Yr}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 DOW}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 CW (MBtu/day)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 HW (MBtu/day)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 WBE (kWh/day)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Temp (F)}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 If an appropriate variable name file cannot be found, Energy Explorer displays the Define Variable Names }
+\ql{\f0\fs24\cf0\up0\dn0 dialog box.  In the Define Variable Names dialog box, the user can accept or change the default variable }
+\ql{\f0\fs24\cf0\up0\dn0 names and save the new variable names in a separate file for later use. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To change a variable name:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click on the variable from the Current Name box that you wish to change.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter a new name in the New Name text box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Change button to lock in the new name.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 4)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Repeat this sequence to change other variable names.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 5)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Load Names button to load the new names without saving them, or the Save and Load }
+\ql{\f0\fs24\cf0\up0\dn0 Names button to save the names in a text file, preferably with the same filename as the data file except with }
+\ql{\f0\fs24\cf0\up0\dn0 the extension ".var", before loading them.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To save the current variable names in a separate file:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the Save and Load Names button.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 2)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Enter a file name, preferably the same filename as the data file except with the extension ".var", in }
+\ql{\f0\fs24\cf0\up0\dn0 the File Save As dialog box that appears. }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 3)}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Click the OK button on the File Save As dialog box.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      At any time during the work session, the Define Variables box can be recalled by selecting Data, Name }
+\ql{\f0\fs24\cf0\up0\dn0 Variables from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Lean_Energy}
+${\footnote Lean Energy Analysis}
+K{\footnote Lean Energy Analysis}
++{\footnote Browse:0005}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Lean Energy Analysis}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 It is frequently informative to break down total electricity and/or fuel use into three components: weather-}
+\ql{\f0\fs24\cf0\up0\dn0 dependent energy use, production or sales-dependent energy use, and general facility energy use which is }
+\ql{\f0\fs24\cf0\up0\dn0 independent of weather or production/sales.  In many cases, a high proportion of facility energy use }
+\ql{\f0\fs24\cf0\up0\dn0 indicates that energy using equipment is not being turned off or controlled to vary with production and/or }
+\ql{\f0\fs24\cf0\up0\dn0 weather.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To disaggregate energy use into Lean Energy categories of facility, weather-dependent and production-}
+\ql{\f0\fs24\cf0\up0\dn0 dependent use, model energy use using a 3PH-MVR or 3PC-MVR model.  In the dialog box, set Y to the }
+\ql{\f0\fs24\cf0\up0\dn0 energy use, X1 to temperature and X2 to a production-related variable.  Select the menu item, Analysis, }
+\ql{\f0\fs24\cf0\up0\dn0 Calculate Lean Energy Breakdown.  Numerical and graphical energy use breakdowns are displayed.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Analysis_Menu}
+${\footnote Analysis Menu}
+K{\footnote Analysis Menu}
++{\footnote Browse:0020}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Analysis Menu}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer' grouping and modeling capabilities can be used to calculate savings from energy }
+\ql{\f0\fs24\cf0\up0\dn0 conservation retrofits, disaggregate energy use into Lean Energy components, and perform other analyses.  }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Calculating Savings Overview}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Perhaps the simplest method to measure retrofit energy savings is to compare pre and post-retrofit energy }
+\ql{\f0\fs24\cf0\up0\dn0 consumption.  This method implicitly assumes that the change in energy consumption between the pre and }
+\ql{\f0\fs24\cf0\up0\dn0 post-retrofit periods is caused solely by the retrofit.  Unfortunately, however, building and plant energy }
+\ql{\f0\fs24\cf0\up0\dn0 consumption is also influenced by other factors including weather conditions, levels of occupancy, and }
+\ql{\f0\fs24\cf0\up0\dn0 operating procedures -- all of which may change between the pre and post-retrofit periods.  If these changes }
+\ql{\f0\fs24\cf0\up0\dn0 are not accounted for, savings determined by this simple method will be erroneous.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Changing weather conditions, in particular, can have a dramatic affect on building energy use and savings }
+\ql{\f0\fs24\cf0\up0\dn0 determined from measured data.  For example, a simulation study of commercial building energy use in five }
+\ql{\f0\fs24\cf0\up0\dn0 U.S. cites showed that gas consumption during extreme years varied by about + 25% from average weather }
+\ql{\f0\fs24\cf0\up0\dn0 years.  Because these deviations are in many cases equal to the magnitude of the expected retrofit savings, }
+\ql{\f0\fs24\cf0\up0\dn0 the need to account for changing weather when determining savings is clear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To account for changing weather and operating conditions, a model of pre-retrofit energy use as a function }
+\ql{\f0\fs24\cf0\up0\dn0 of weather and operating conditions can be generated.  Energy Explorer' regression models have been }
+\ql{\f0\fs24\cf0\up0\dn0 shown to describe heating and cooling energy use with a Root Mean Square Error of about 10% of the }
+\ql{\f0\fs24\cf0\up0\dn0 mean energy consumption, when energy use is modeled solely as a function of outside air temperature. }
+\ql{\f0\fs24\cf0\up0\dn0 Model accuracy typically increases when other independent variables that influence energy use are added.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 This pre-retrofit model can then be used to predict the how much energy an un-retrofitted building or plant }
+\ql{\f0\fs24\cf0\up0\dn0 would consume under post-retrofit conditions.  The predicted energy use can be compared to the measured }
+\ql{\f0\fs24\cf0\up0\dn0 energy use during the post-retrofit period to determine retrofit savings, even when weather and operating }
+\ql{\f0\fs24\cf0\up0\dn0 conditions have changed between the pre and post retrofit periods.  Energy Explorer automates this }
+\ql{\f0\fs24\cf0\up0\dn0 process and makes measuring energy savings more accurate and easier than ever before.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Measuring Retrofit Savings}{\v Hlp_Measuring_Retrofit} }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Savings Measurement Algorithms}{\v Hlp_Savings_Measurement}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\b\f0\fs24\cf0\up0\dn0 Lean Energy Analysis Overview}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 It is frequently informative to break down total electricity and/or fuel use into three components: weather-}
+\ql{\f0\fs24\cf0\up0\dn0 dependent energy use, production or sales-dependent energy use, and general facility energy use which is }
+\ql{\f0\fs24\cf0\up0\dn0 independent of weather or production/sales.  In many cases, a high proportion of facility energy use }
+\ql{\f0\fs24\cf0\up0\dn0 indicates that energy using equipment is not being turned off or controlled to vary with production and/or }
+\ql{\f0\fs24\cf0\up0\dn0 weather.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Lean Energy Analysis}{\v Hlp_Lean_Energy}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Energy_Explorer}
+${\footnote Energy Explorer Text Editor}
+K{\footnote Energy Explorer Text Editor}
++{\footnote Browse:0005}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Energy Explorer Text Editor}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 Energy Explorer has a text editor to view, write and edit ASCII text files.  Use caution, however, in editing }
+\ql{\f0\fs24\cf0\up0\dn0 large files since the text editor may take a long time to open large files. To edit very large files, we suggest }
+\ql{\f0\fs24\cf0\up0\dn0 using a work processor.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0      }{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To open the Energy Explorer text editor, select the menu items File, Editor.  The text editor will appear.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Energy_Explorer1}
+${\footnote Energy Explorer}
+K{\footnote Energy Explorer}
++{\footnote Browse:0005}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Energy Explorer}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Description}{\v Hlp_Description}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Getting Started: An Overview of Features}{\v Hlp_Getting_Startedx}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Work Window}{\v Hlp_Work_Window}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb File Menu}{\v Hlp_File_Menu}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Edit Menu}{\v Hlp_Edit_Menu}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Data Menu}{\v Hlp_Data_Menu}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Analysis Menu}{\v Hlp_Analysis_Menu}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Graphing Data}{\v Hlp_Graphical_Analysis}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Modeling Data}{\v Hlp_Modeling}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 {\uldb Acknowledgments}{\v Hlp_Acknowledgments}}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page
+#{\footnote Hlp_Exiting_Energy}
+${\footnote Exiting Energy Explorer}
+K{\footnote Exiting Energy Explorer}
++{\footnote Browse:0010}
+
+\ql\li0\fi0\ri100{\f0\fs48\cf1\up0\dn0 Exiting Energy Explorer}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 To quit from Energy Explorer:}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0 1.}{\f0\fs24\cf0\up0\dn0\tab}{\f0\fs24\cf0\up0\dn0 Select File, Exit from the menu.}{
+\par}\pard
+\ql\li0\fi0\ri100{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\ql{\f0\fs24\cf0\up0\dn0
+\par}\pard
+\page}
+

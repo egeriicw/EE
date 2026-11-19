@@ -1,0 +1,82 @@
+[OPTIONS]
+ERRORLOG=C:\KKSOFT~1\ENERGY~1\EESOURCE\EEHELP.ERR
+ROOT=C:\KKSOFT~1\ENERGY~1\EESOURCE
+COMPRESS=OFF
+CONTENTS = Hlp_Energy_Explorer1                                            
+REPORT=ON
+TITLE=Windows Help
+WARNING=1
+
+[WINDOWS]
+main="Windows Help", , ,(  255,  255,  255),(  128,  128,  128), 0
+HlpWnd02="Second Windows help", ( 511 , 0 , 511 , 1000  ),0,(  255,  255,  255), (  128,  128,  128), 0
+HlpWnd03="Third Windows help", ( 255 , 511 , 511 , 511  ),0,(  255,  255,  255), (  128,  128,  128), 0
+
+[CONFIG]
+RR("mmsystem","sndPlaySound","Su")
+BrowseButtons()
+
+[BITMAPS]
+C:\PROGRA~1\HELPWR~1\GLOSSARY.SHG
+
+[MAP]
+Hlp_Description  10
+Hlp_Getting_Startedx  30
+Hlp_Menu_Bar  60
+Hlp_Graph_Window  70
+Hlp_Variable_List  80
+Hlp_Graph_Buttons  90
+Hlp_Model_Buttons  100
+Hlp_Grouping_Buttons  110
+Hlp_Printing  150
+Hlp_Copying_Information  170
+Hlp_Text_Editor  180
+Hlp_Work_Window  580
+Hlp_Value_Window  590
+Hlp_File_Menu  660
+Hlp_Input_Data1  670
+Hlp_Saving_Data1  710
+Hlp_Edit_Menu  730
+Hlp_Data_Menu  750
+Hlp_Naming_Variables  760
+Hlp_Setting_NoxData  770
+Hlp_Creating_SubxSets  780
+Hlp_Displaying_The  790
+Hlp_Modifying_Data  800
+Hlp_Creating_New  810
+Hlp_Deleting_a  820
+Hlp_Grouping_Data  830
+Hlp_Changing_Time  840
+Hlp_Averaging_Intermittent  850
+Hlp_Graphical_Analysis  860
+Hlp_TimexSeries_Graphs  870
+Hlp_XY_Graphs  880
+Hlp_Animated_XY  890
+Hlp_Histograms  900
+Hlp_Value_Identification  910
+Hlp_Grid_Lines  920
+Hlp_Modeling  930
+Hlp_Mean_and  940
+Hlp_2P_and  950
+Hlp_3P_and  960
+Hlp_4P_and  970
+Hlp_5P_and  980
+Hlp_Bin_Fit  990
+Hlp_Running_a  1000
+Hlp_Modeling_Groups  1010
+Hlp_Prediction_Intervals  1020
+Hlp_Residual_Analysis  1030
+Hlp_Model_Parameters  1040
+Hlp_Measuring_Retrofit  1070
+Hlp_Savings_Measurement  1080
+Hlp_Acknowledgments  1090
+Hlp_Opening_Data1  1110
+Hlp_Lean_Energy  1120
+Hlp_Analysis_Menu  1150
+Hlp_Energy_Explorer  1160
+Hlp_Energy_Explorer1  1170
+Hlp_Exiting_Energy  1180
+GLOSSARY 64000
+
+[FILES]
+C:\KKSOFT~1\ENERGY~1\EESOURCE\EEHELP.p01
